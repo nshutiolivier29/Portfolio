@@ -45,7 +45,7 @@ export default function Testimonials() {
                             {testimonials.map((testi, index) => (
                                 <div key={index} className="w-full flex-shrink-0 px-4">
                                     <div className="h-full">
-                                        <div className="relative bg-white dark:bg-gray-800 p-12 rounded-3xl shadow-xl text-center flex flex-col items-center h-full z-10">
+                                        <div className="relative bg-white dark:bg-gray-800 p-12 rounded-3xl shadow-xl text-center flex flex-col items-center h-full z-10 border-2 border-red-600">
                                             <div className="w-20 h-20 relative mb-6 rounded-full overflow-hidden border-4 border-blue-100 dark:border-blue-900">
                                                 <img
                                                     src={testi.img}
