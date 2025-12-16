@@ -21,10 +21,10 @@ export default function Hero() {
                     <div className="flex flex-wrap gap-4">
                         <Link
                             href="#portfolio"
-                            className="group relative px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-bold tracking-wide shadow-xl shadow-blue-500/20 hover:shadow-blue-500/40 hover:scale-105 transition-all duration-300 overflow-hidden"
+                            className="group relative px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-bold tracking-wide shadow-xl shadow-blue-500/20 hover:shadow-blue-500/40 hover:scale-105 transition-all duration-300 overflow-hidden border-2 border-red-500"
                         >
                             <span className="relative z-10 flex items-center gap-2">
-                                MY WORK
+                                Our Work
                                 <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                                 </svg>

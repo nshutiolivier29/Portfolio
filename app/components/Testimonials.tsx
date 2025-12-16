@@ -44,12 +44,7 @@ export default function Testimonials() {
                         >
                             {testimonials.map((testi, index) => (
                                 <div key={index} className="w-full flex-shrink-0 px-4">
-                                    <div className="relative group p-[2px] rounded-3xl">
-                                        {/* Animated Red Border Background */}
-                                        <div className="absolute inset-0 bg-[conic-gradient(from_0deg,transparent_0_340deg,white_360deg)] animate-[spin_4s_linear_infinite] opacity-100 rounded-3xl"></div>
-                                        <div className="absolute -inset-[3px] rounded-[1.6rem] bg-gradient-to-r from-red-600 via-red-300 to-red-600 animate-[pulse_3s_linear_infinite] blur-sm opacity-70"></div>
-                                        <div className="absolute inset-0 bg-[conic-gradient(from_90deg_at_50%_50%,#991b1b_0%,#ef4444_50%,#991b1b_100%)] animate-[spin_4s_linear_infinite] rounded-3xl"></div>
-
+                                    <div className="h-full">
                                         <div className="relative bg-white dark:bg-gray-800 p-12 rounded-3xl shadow-xl text-center flex flex-col items-center h-full z-10">
                                             <div className="w-20 h-20 relative mb-6 rounded-full overflow-hidden border-4 border-blue-100 dark:border-blue-900">
                                                 <img
